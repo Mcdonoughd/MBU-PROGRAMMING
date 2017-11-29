@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+#include "Stack.h"
+
+int main() {
+    Stack s{2};
+    int a = 5;
+    int b = 7;
+    s.push(&a);
+    s.push(&b);
+    int* y = s.pop();
+    cout << *y << endl;
+    y = s.pop();
+    cout << *y << endl;
+    return 0;
+}

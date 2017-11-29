@@ -1,0 +1,11 @@
+#include "List.h"
+int main(){
+
+    SLL list;
+    list.insertNewNode('C');
+    list.insertNewNode('B');
+    list.insertNewNode('A');
+    SLL.printAll();
+    return 0;
+}
+

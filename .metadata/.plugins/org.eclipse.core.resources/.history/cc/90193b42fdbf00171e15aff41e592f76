@@ -1,0 +1,42 @@
+/*
+ * Stack.h
+ *
+ *  Created on: Oct 30, 2017
+ *      Author: davemcdave
+ */
+
+#ifndef STACK_H_
+#define STACK_H_
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+// Define node pointer
+class Node {
+public:
+    int data;
+    Node* next;
+};
+
+
+
+class Stack{
+public:
+    int length; //counter for the length of a list
+    Node* head;
+    Node* tail;
+//define the functions to be done on a list
+    Stack();
+    ~Stack();
+    void add(int data);
+    void print();
+    void push(Node *& head, Node *&tail, int data);
+    void pop(Node *&head, Node *& tail);
+    void top(Node *& head);
+    bool isEmpty(Node *& head);
+};
+// Head and tail pointers
+
+
+
+#endif //STACK_H

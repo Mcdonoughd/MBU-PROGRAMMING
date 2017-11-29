@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : MBU_Assignment3.cpp
+// Author      : Daniel McDonough
+// Version     :
+// Copyright   : Made by Daniel McDonough for MBU 2017
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+
+/*
+ * Welcome to C++! Now that you're experts at Java and Python, you are ready for C++. C++ unlike Java and Python
+ * doesn't do certain things for you as we'll see later.
+ */
+
+/*
+ * These are in include files, similar to import in java
+ */
+#include <iostream> //note how these do not end in a ;
+#include <stdio.h>
+#include "my_h_file.h" //This is the format to import your own file
+
+using namespace std; // you dont need to know what this is but feel free to look up what namespaces are in your free time.
+
+
+//int argc is the number of arguments passed with the program
+//char* argv[] are the arguments themselves
+int main(int argc,char* argv[]) {
+	//This is a for loop that prints all the arguments given
+	//Note how the first argument (0th element) is the file path for the program
+	cout << "The Arguments given were:" << endl;
+	for(int i = 0; i<=argc-1; i++){
+		cout << argv[i] << endl;
+	}
+
+
+
+
+
+	return 0;
+}

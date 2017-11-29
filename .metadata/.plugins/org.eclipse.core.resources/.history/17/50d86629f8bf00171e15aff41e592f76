@@ -1,0 +1,47 @@
+/*
+ * List.h
+ *
+ *  Created on: Oct 30, 2017
+ *      Author: davemcdave
+ */
+
+#ifndef LIST_H_
+#define LIST_H_
+
+  #include <iostream>
+using namespace std;
+
+class List_Node{
+
+      public:
+
+      char letter;  /*I looked up ASCII codes, 65 stands for 'A',
+                     *it will help me make my linked list faster*/
+      Node *next, *prev;          //Node pointers to next and previous
+
+};
+
+public:
+    List() {
+        next = NULL;
+    }
+
+    ~List() {
+        while(head != NULL) {
+            Node * n = head->next;
+            delete head;
+            head = n;
+        }
+    }
+
+    void add(int value) {
+        Node * n = new Node;
+        n->data = value;
+        n->next = head;
+        head = n;
+    }
+
+    // ...
+};
+
+#endif /* LIST_H_ */

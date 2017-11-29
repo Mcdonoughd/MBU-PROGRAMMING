@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+
+
+#include "List.h"
+
+int main(int argc, char const *argv[])
+{
+	//Here we create a new Linked List
+    LinkedList* list = new LinkedList();
+
+    //We populate the list with 100 items containing random values
+    for (int i = 0; i < 100; ++i)
+    {
+        list->add(rand() % 100);
+    }
+    //Print the list
+    list->print();
+    std::cout << "List Length: " << list->length << std::endl;
+    //Delete the list
+    delete list;
+    return 0;
+}

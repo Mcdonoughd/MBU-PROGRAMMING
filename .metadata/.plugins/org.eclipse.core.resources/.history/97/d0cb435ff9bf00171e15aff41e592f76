@@ -1,0 +1,32 @@
+/*
+ * List.c
+ *
+ *  Created on: Oct 30, 2017
+ *      Author: davemcdave
+ */
+#include "List.h"
+
+    void SLL::printAll(){
+
+     List_Node *p;
+     p = head;
+     while(p->next!=NULL){
+
+     cout << p << " ";
+     p = p->next;
+     }
+
+}
+
+     void SLL::insertNewNode(char item){
+          List_Node* temp;
+
+          temp = new List_Node;
+          temp->letter = item;
+          temp->next = head;
+          head = temp;
+
+
+          }
+
+

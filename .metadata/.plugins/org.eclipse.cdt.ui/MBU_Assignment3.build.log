@@ -1,0 +1,304 @@
+15:59:51 **** Incremental Build of configuration Debug for project MBU_Assignment3 ****
+make all 
+Building file: ../src/List.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List.d" -MT"src/List.o" -o "src/List.o" "../src/List.cpp"
+In file included from ../src/List.cpp:7:0:
+../src/List.h:14:12: error: field ‘next’ has incomplete type ‘List_Node’
+  List_Node next;
+            ^
+../src/List.h:11:7: note: definition of ‘class List_Node’ is not complete until the closing brace
+ class List_Node {
+       ^
+../src/List.cpp: In function ‘void initNode(List_Node, int)’:
+../src/List.cpp:12:13: error: ‘NULL’ was not declared in this scope
+  head.next =NULL;
+             ^
+../src/List.cpp: In function ‘void addNode(Node*, int)’:
+../src/List.cpp:17:22: error: invalid use of incomplete type ‘struct Node’
+  Node *newNode = new Node;
+                      ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:18:9: error: invalid use of incomplete type ‘struct Node’
+  newNode->data = n;
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:19:9: error: invalid use of incomplete type ‘struct Node’
+  newNode->next = NULL;
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:19:18: error: ‘NULL’ was not declared in this scope
+  newNode->next = NULL;
+                  ^
+../src/List.cpp:23:9: error: invalid use of incomplete type ‘struct Node’
+   if(cur->next == NULL) {
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+src/subdir.mk:34: recipe for target 'src/List.o' failed
+                     ^
+../src/List.cpp:24:7: error: invalid use of incomplete type ‘struct Node’
+    cur->next = newNode;
+       ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:27:12: error: invalid use of incomplete type ‘struct Node’
+   cur = cur->next;
+            ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘void insertFront(Node**, int)’:
+../src/List.cpp:32:22: error: invalid use of incomplete type ‘struct Node’
+  Node *newNode = new Node;
+                      ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:33:9: error: invalid use of incomplete type ‘struct Node’
+  newNode->data = n;
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:34:9: error: invalid use of incomplete type ‘struct Node’
+  newNode->next = *head;
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘Node* searchNode(Node*, int)’:
+../src/List.cpp:41:9: error: invalid use of incomplete type ‘struct Node’
+   if(cur->data == n) return cur;
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:42:12: error: invalid use of incomplete type ‘struct Node’
+   cur = cur->next;
+            ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:44:2: error: ‘cout’ was not declared in this scope
+  cout << "No Node " << n << " in list.\n";
+  ^
+../src/List.cpp: In function ‘bool deleteNode(Node**, Node*)’:
+../src/List.cpp:50:14: error: invalid use of incomplete type ‘struct Node’
+   *head = cur->next;
+              ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:51:10: warning: possible problem detected in invocation of delete operator: [-Wdelete-incomplete]
+   delete ptrDel;
+          ^
+../src/List.cpp:47:43: warning: ‘ptrDel’ has incomplete type
+ bool deleteNode(struct Node **head, Node *ptrDel) {
+                                           ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:51:10: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+   delete ptrDel;
+          ^
+../src/List.cpp:56:9: error: invalid use of incomplete type ‘struct Node’
+   if(cur->next == ptrDel) {
+         ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:57:7: error: invalid use of incomplete type ‘struct Node’
+    cur->next = ptrDel->next;
+       ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:57:22: error: invalid use of incomplete type ‘struct Node’
+    cur->next = ptrDel->next;
+                      ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:58:11: warning: possible problem detected in invocation of delete operator: [-Wdelete-incomplete]
+    delete ptrDel;
+           ^
+../src/List.cpp:47:43: warning: ‘ptrDel’ has incomplete type
+ bool deleteNode(struct Node **head, Node *ptrDel) {
+                                           ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:58:11: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+    delete ptrDel;
+           ^
+../src/List.cpp:61:12: error: invalid use of incomplete type ‘struct Node’
+   cur = cur->next;
+            ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘Node* reverse(Node**)’:
+../src/List.cpp:70:19: error: invalid use of incomplete type ‘struct Node’
+  Node *me = parent->next;
+                   ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:71:18: error: invalid use of incomplete type ‘struct Node’
+  Node *child = me->next;
+                  ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:74:8: error: invalid use of incomplete type ‘struct Node’
+  parent->next = NULL;
+        ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:74:17: error: ‘NULL’ was not declared in this scope
+  parent->next = NULL;
+                 ^
+../src/List.cpp:76:5: error: invalid use of incomplete type ‘struct Node’
+   me->next = parent;
+     ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:79:16: error: invalid use of incomplete type ‘struct Node’
+   child = child->next;
+                ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:81:4: error: invalid use of incomplete type ‘struct Node’
+  me->next = parent;
+    ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘void copyLinkedList(Node*, Node**)’:
+../src/List.cpp:89:13: error: ‘NULL’ was not declared in this scope
+  if(node != NULL) {
+             ^
+../src/List.cpp:90:15: error: invalid use of incomplete type ‘struct Node’
+   *pNew = new Node;
+               ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:91:10: error: invalid use of incomplete type ‘struct Node’
+   (*pNew)->data = node->data;
+          ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:91:23: error: invalid use of incomplete type ‘struct Node’
+   (*pNew)->data = node->data;
+                       ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:92:10: error: invalid use of incomplete type ‘struct Node’
+   (*pNew)->next = NULL;
+          ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:93:22: error: invalid use of incomplete type ‘struct Node’
+   copyLinkedList(node->next, &((*pNew)->next));
+                      ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:93:39: error: invalid use of incomplete type ‘struct Node’
+   copyLinkedList(node->next, &((*pNew)->next));
+                                       ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘int compareLinkedList(Node*, Node*)’:
+../src/List.cpp:104:14: error: ‘NULL’ was not declared in this scope
+  if(node1 == NULL && node2 == NULL) {
+              ^
+../src/List.cpp:110:16: error: invalid use of incomplete type ‘struct Node’
+   else if(node1->data != node2->data)
+                ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:110:31: error: invalid use of incomplete type ‘struct Node’
+   else if(node1->data != node2->data)
+                               ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:113:27: error: invalid use of incomplete type ‘struct Node’
+    compareLinkedList(node1->next, node2->next);
+                           ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:113:40: error: invalid use of incomplete type ‘struct Node’
+    compareLinkedList(node1->next, node2->next);
+                                        ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp: In function ‘void deleteLinkedList(Node**)’:
+../src/List.cpp:124:18: error: invalid use of incomplete type ‘struct Node’
+   *node = tmpNode->next;
+                  ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:125:10: warning: possible problem detected in invocation of delete operator: [-Wdelete-incomplete]
+   delete tmpNode;
+          ^
+../src/List.cpp:121:15: warning: ‘tmpNode’ has incomplete type
+  struct Node *tmpNode;
+               ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:125:10: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+   delete tmpNode;
+          ^
+../src/List.cpp: In function ‘void display(Node*)’:
+../src/List.cpp:132:3: error: ‘cout’ was not declared in this scope
+   cout << list->data << " ";
+   ^
+../src/List.cpp:132:15: error: invalid use of incomplete type ‘struct Node’
+   cout << list->data << " ";
+               ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:133:14: error: invalid use of incomplete type ‘struct Node’
+   list = list->next;
+              ^
+../src/List.cpp:16:21: note: forward declaration of ‘struct Node’
+ void addNode(struct Node *head, int n) {
+                     ^
+../src/List.cpp:135:2: error: ‘cout’ was not declared in this scope
+  cout << endl;
+  ^
+../src/List.cpp:135:10: error: ‘endl’ was not declared in this scope
+  cout << endl;
+          ^
+../src/List.cpp: In function ‘Node* searchNode(Node*, int)’:
+../src/List.cpp:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/List.o] Error 1
+
+15:59:51 Build Finished (took 274ms)
+

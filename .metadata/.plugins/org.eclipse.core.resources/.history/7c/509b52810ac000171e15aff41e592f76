@@ -1,0 +1,8 @@
+#ifndef MY_H_
+#define MY_H_
+//You typically want to add these #if statements to prevent redefinition of the .h file
+
+//This is an example of a global variable
+extern const int globalvar = 0; //const means that the value can never be changed by a function
+
+#endif //MY_H

@@ -1,0 +1,40 @@
+/*
+ * List.h
+ *
+ *  Created on: Oct 30, 2017
+ *      Author: davemcdave
+ */
+
+#ifndef LIST_H_
+#define LIST_H_
+
+class List {
+    struct Node {
+        int data;
+        Node * next;
+    };
+
+public:
+    List() {
+        next = NULL;
+    }
+
+    ~List() {
+        while(head != NULL) {
+            Node * n = head->next;
+            delete head;
+            head = n;
+        }
+    }
+
+    void add(int value) {
+        Node * n = new Node;
+        n->data = value;
+        n->next = head;
+        head = n;
+    }
+
+    // ...
+};
+
+#endif /* LIST_H_ */

@@ -1,0 +1,67 @@
+#include "Stack.h"
+#include<stdio.h>
+Stack::Stack{
+	this->head = NULL;
+	    this->tail = NULL;
+}
+//Push element in stack
+void Stack::push(Node *& head, Node *&tail, int data) {
+    if (head == NULL) {
+        Node* n= new Node;
+
+        n->data = data;
+        n->next = NULL;
+
+        head = n;
+        tail = n;
+
+    } else {
+        Node* n = new Node;
+        n->data = data;
+        n->next = head;
+        head = n;
+    }
+}
+
+// Pop first element in stack
+void Stack::pop(Node *&head, Node *& tail) {
+    if (head == NULL) {
+        printf("\nThe stack is empty.");
+
+    } else if (head == tail) {
+        // Case when there is only 1 element in the stack
+        printf("The value %d was popped", head->data);
+        delete head;
+        head = NULL;
+        tail = NULL;
+
+    } else {
+        Node* n = new Node;
+        n = head;
+        head = head->next;
+        printf("\nThe value %d was popped", n->data);
+        delete n;
+    }
+}
+
+//Show top-most element in stack
+void Stack::top(Node *& head) {
+    if (head == NULL) {
+        printf("\nThe stack if empty");
+
+    } else {
+        printf("\nTop number is %d", head->data);
+    }
+}
+
+// Shows if the stack is empty
+bool Stack::isEmpty(Node *& head) {
+    if(head == NULL) {
+        printf("\nThe stack is empty");
+        return true;
+
+    } else {
+        printf("\nThe stack is not empty");
+        return false;
+    }
+}

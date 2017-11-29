@@ -1,0 +1,84 @@
+//============================================================================
+// Name        : List.cpp
+// Author      : Daniel McDonough
+// Version     :
+// Copyright   : Daniel McDonough 2017
+// Description : Santa's List Assignment for MBU 2017
+//============================================================================
+
+#include<stdio.h>
+#include "List.h"
+
+//YOU DO NOT HAVE TO KNOW HOW THESE FUNCTIONS WORK
+//BUT YOU SHOULD KNOW WHAT THEY DO
+LinkedList::LinkedList(){
+	this->length = 0;
+	this->head = NULL;
+}
+
+LinkedList::~LinkedList(){
+	std::cout << "LIST DELETED";
+}
+
+void LinkedList::add(string data){
+	Node* node = new Node();
+	node->data = data;
+	node->next = this->head;
+	this->head = node;
+	this->length++;
+}
+
+void LinkedList::print(){
+	Node* head = this->head;
+	int i = 1;
+	while(head){
+		std::cout << i << ": " << head->data << std::endl;
+		head = head->next;
+		i++;
+	}
+}
+
+int LinkedList::find_count_steps(Node* t, string x, int count){
+	if(t == NULL){
+		printf("THE TREE IS EMPTY\n");
+		return 0;
+	}
+	else if(x != t->data){
+		return find_count_steps(t->next, x,count+1);
+	}
+	else
+		return count;
+}
+void LinkedList::populate_List(){
+	this.add("BOB");
+	this.add("BILLY");
+	this.add("SARAH");
+	list.add("WILLIAM");
+	list.add("MARGE");
+	list.add("BETTY");
+	list.add("ALISE");
+	list.add("KAT");
+	list.add("JON");
+	list.add("SURYA");
+	list.add("DAVID");
+	list.add("DORY");
+	list.add("NEMO");
+	list.add("SANCHEZ");
+	list.add("FRANCA");
+	list.add("DANNY");
+	list.add("DANI");
+	list.add("LILY");
+	list.add("GEORGE");
+	list.add("RICARDO");
+	list.add("ALEX");
+	list.add("TRISTAN");
+	list.add("SABASTIAN");
+	list.add("ANDREW");
+	list.add("JASON");
+	list.add("CHRIS");
+	list.add("ZACH");
+	list.add("MADDY");
+	list.add("MARTY");
+	list.add("SAM");
+}
+
