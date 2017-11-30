@@ -1,14 +1,14 @@
 //============================================================================
-// Name        : Stack.h
+// Name        : Queue.h
 // Author      : Daniel McDonough
 // Version     :
 // Copyright   : Daniel McDonough 2017
-// Description : Santa's List Assignment for MBU 2017
+// Description : C++ QUEUE DEMO for MBU 2017
 //============================================================================
 
 
-#ifndef STACK_H_
-#define STACK_H_
+#ifndef QUEUE_H_
+#define QUEUE_H_
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -16,30 +16,31 @@ using namespace std;
 // Define node pointer
 class Node {
 public:
-    string data;
+    string Name;
     Node* next;
 };
 
 
-class Stack{
+
+class Queue{
 public:
-    int length; //counter for the length of a stack
+    int length; //counter for the length of a list
     Node* head;
     Node* tail;
-//define the functions to be done on a stack
-    Stack();
-    ~Stack();
+    Node *prev;
+    Node *temp;
+//define the functions to be done on a list
+    Queue();
+    ~Queue();
     void print();
-    void push(string Name);
+    void add(string Name);
     void pop();
     void top();
     bool isEmpty();
     void populate();
-    void add(string Name);
-    int find_count_steps(Node* t, string x, int count);
 };
 // Head and tail pointers
 
 
 
-#endif //STACK_H
+#endif //QUEUE_H

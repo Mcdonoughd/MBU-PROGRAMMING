@@ -96,20 +96,3 @@ bool Stack::isEmpty() {
 		return false;
 	}
 }
-
-//Counts the number of steps to find the given name
-int Stack::find_count_steps(Node* t, string x, int count){
-	if(t == NULL){
-		printf("Could Not Find What You're Looking For!\n");
-		return 0;
-	}
-	else if(x != t->data){
-		return find_count_steps(t->next, x,count+1);
-	}
-	else
-		return count+1;
-}
-
-
-
-

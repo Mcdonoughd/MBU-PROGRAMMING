@@ -38,7 +38,6 @@ Node* BST::add(string x, Node* t){
 	return t;
 }
 
-//Find the absolute left node in tree
 Node* BST::findMin(Node* t){
 	if(t == NULL)
 		return NULL;
@@ -48,7 +47,6 @@ Node* BST::findMin(Node* t){
 		return findMin(t->left);
 }
 
-//Find the absolute right node in tree
 Node* BST::findMax(Node* t){
 	if(t == NULL)
 		return NULL;
@@ -58,7 +56,6 @@ Node* BST::findMax(Node* t){
 		return findMax(t->right);
 }
 
-//Remove a node from a tree
 Node* BST::remove(string x, Node* t){
 	Node* temp;
 	if(t == NULL)
@@ -86,7 +83,6 @@ Node* BST::remove(string x, Node* t){
 	return t;
 }
 
-//Print Tree in order
 void BST::inorder(Node* t){
 	if(t == NULL)
 		return;
@@ -95,8 +91,6 @@ void BST::inorder(Node* t){
 	inorder(t->right);
 }
 
-
-//Find a given string in the tree
 Node* BST::find(Node* t, string x){
 	if(t == NULL)
 		return NULL;
@@ -108,7 +102,6 @@ Node* BST::find(Node* t, string x){
 		return t;
 }
 
-//Find a given name in the tree and count the steps it takes to find them
 int BST::find_count_steps(Node* t, string x, int count){
 	if(t == NULL){
 		printf("THE TREE IS EMPTY\n");
@@ -125,33 +118,27 @@ int BST::find_count_steps(Node* t, string x, int count){
 		return count;
 }
 
-//Tree constructor
 BST::BST(){
 	root = NULL;
 }
 
-//Tree destructor
 BST::~BST(){
 	root = makeEmpty(root);
 }
 
-//Add element to tree
 void BST::add(string x){
 	root = add(x, root);
 }
 
-//remove element from tree
 void BST::remove(string x){
 	root = remove(x, root);
 }
 
-//print tree
 void BST::display(){
 	inorder(root);
 	cout << endl;
 }
 
-//find tree
 int BST::search(string x){
 	int y = find(root, x)->Name;
 	return y;

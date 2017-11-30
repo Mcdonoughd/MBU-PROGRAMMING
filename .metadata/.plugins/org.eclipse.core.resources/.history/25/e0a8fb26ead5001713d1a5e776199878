@@ -52,6 +52,7 @@ void Queue::pop() {
 	if (head == NULL) {
 		printf("\nThe stack is empty.");
 		return;
+
 	}
 	printf("The value %d was popped", head->Name);
 	temp = head;

@@ -3,7 +3,7 @@
 // Author      : Daniel McDonough
 // Version     :
 // Copyright   : Daniel McDonough 2017
-// Description : C++ QUEUE DEMO for MBU 2017
+// Description : Santa's List Assignment for MBU 2017
 //============================================================================
 
 
@@ -24,20 +24,22 @@ public:
 
 class Queue{
 public:
-    int length; //counter for the length of a list
+    int length; //counter for the length of a Queue
     Node* head;
     Node* tail;
     Node *prev;
     Node *temp;
-//define the functions to be done on a list
+//define the functions to be done on a Queue
     Queue();
     ~Queue();
     void print();
-    void add(string Name);
+    void add(string Name); //added add for easy implementation of assignment does same thing as push
+    void push(string Name);
     void pop();
     void top();
     bool isEmpty();
     void populate();
+    int find_count_steps(Node* t, string x, int count);
 };
 // Head and tail pointers
 

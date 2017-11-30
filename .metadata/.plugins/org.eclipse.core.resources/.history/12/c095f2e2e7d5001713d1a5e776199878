@@ -9,7 +9,6 @@
 #include "Queue.h"
 #include<stdio.h>
 
-//Queue Constructor
 Queue::Queue(){
 	this->length = 0;
 	this->head = NULL;
@@ -18,33 +17,26 @@ Queue::Queue(){
 	this->temp =NULL;
 }
 
-//Queue Destructor
 Queue::~Queue(){
 
 }
-
-//Push element in Queue
-void Queue::push(string Name){
-	Node* temp = new Node;
-		temp->Name = Name;
-		temp->next = NULL;
-		if(head == NULL)
-		{
-			head = temp;
-			tail = temp;
-		}
-		else
-		{
-			prev = tail;
-			tail->next = temp;
-			tail = temp;
-		}
-		this->length++;
-}
-
 //Push element in Queue
 void Queue::add(string Name) {
-	this->push(Name);
+	Node* temp = new Node;
+	temp->Name = Name;
+	temp->next = NULL;
+	if(head == NULL)
+	{
+		head = temp;
+		tail = temp;
+	}
+	else
+	{
+		prev = tail;
+		tail->next = temp;
+		tail = temp;
+	}
+	this->length++;
 }
 
 // Pop first element in Queue
@@ -52,6 +44,7 @@ void Queue::pop() {
 	if (head == NULL) {
 		printf("\nThe stack is empty.");
 		return;
+
 	}
 	printf("The value %d was popped", head->Name);
 	temp = head;
@@ -82,19 +75,6 @@ bool Queue::isEmpty() {
 		printf("\nThe Queue is not empty");
 		return false;
 	}
-}
-
-//Counts the number of steps to find the given name
-int Queue::find_count_steps(Node* t, string x, int count){
-	if(t == NULL){
-		printf("Could Not Find What You're Looking For!\n");
-		return 0;
-	}
-	else if(x != t->Name){
-		return find_count_steps(t->next, x,count+1);
-	}
-	else
-		return count+1;
 }
 
 //Populate the Queue with Names

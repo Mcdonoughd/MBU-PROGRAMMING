@@ -21,12 +21,13 @@ public:
 };
 
 
+
 class Stack{
 public:
-    int length; //counter for the length of a stack
+    int length; //counter for the length of a list
     Node* head;
     Node* tail;
-//define the functions to be done on a stack
+//define the functions to be done on a list
     Stack();
     ~Stack();
     void print();
@@ -36,7 +37,6 @@ public:
     bool isEmpty();
     void populate();
     void add(string Name);
-    int find_count_steps(Node* t, string x, int count);
 };
 // Head and tail pointers
 

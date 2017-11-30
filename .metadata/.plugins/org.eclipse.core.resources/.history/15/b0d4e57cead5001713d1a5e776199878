@@ -97,6 +97,7 @@ bool Stack::isEmpty() {
 	}
 }
 
+
 //Counts the number of steps to find the given name
 int Stack::find_count_steps(Node* t, string x, int count){
 	if(t == NULL){

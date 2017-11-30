@@ -10,25 +10,16 @@
 #include "Stack.h"
 #include<stdio.h>
 
-//Stack Constructor
 Stack::Stack(){
 	this->length = 0;
 	this->head = NULL;
 	this->tail = NULL;
 }
-
-//Stack destructor
 Stack::~Stack(){
 
 }
-
-//Push element of the stack
-void Stack::add(string name){
-	this->push(name);
-}
-
 //Push element in stack
-void Stack::push(string data) {
+void Stack::push(int data) {
 	head = this->head;
 		tail = this-> tail;
 	if (head == NULL) {
@@ -96,20 +87,3 @@ bool Stack::isEmpty() {
 		return false;
 	}
 }
-
-//Counts the number of steps to find the given name
-int Stack::find_count_steps(Node* t, string x, int count){
-	if(t == NULL){
-		printf("Could Not Find What You're Looking For!\n");
-		return 0;
-	}
-	else if(x != t->data){
-		return find_count_steps(t->next, x,count+1);
-	}
-	else
-		return count+1;
-}
-
-
-
-
