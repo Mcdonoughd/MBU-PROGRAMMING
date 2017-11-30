@@ -11,15 +11,19 @@
 
 //YOU DO NOT HAVE TO KNOW HOW THESE FUNCTIONS WORK
 //BUT YOU SHOULD KNOW WHAT THEY DO
+
+//Constructor to initialize a LinkedList
 LinkedList::LinkedList(){
 	this->length = 0;
 	this->head = NULL;
 }
 
+//Destructor to Delete a LinkedList
 LinkedList::~LinkedList(){
 	std::cout << "LIST DELETED";
 }
 
+//Adds a Name to the List
 void LinkedList::add(string data){
 	Node* node = new Node();
 	node->data = data;
@@ -28,6 +32,7 @@ void LinkedList::add(string data){
 	this->length++;
 }
 
+//Prints the List
 void LinkedList::print(){
 	Node* head = this->head;
 	int i = 1;
@@ -38,9 +43,10 @@ void LinkedList::print(){
 	}
 }
 
+//Counts the number of steps to find the given name
 int LinkedList::find_count_steps(Node* t, string x, int count){
 	if(t == NULL){
-		printf("THE TREE IS EMPTY\n");
+		printf("Could Not Find What You're Looking For!\n");
 		return 0;
 	}
 	else if(x != t->data){
@@ -52,6 +58,7 @@ int LinkedList::find_count_steps(Node* t, string x, int count){
 
 //Populate the List with Names
 void LinkedList::populate(){
+	this->add("MAGGY");
 	this->add("BOB");
 	this->add("BILLY");
 	this->add("SARAH");
@@ -83,6 +90,5 @@ void LinkedList::populate(){
 	this->add("MARTY");
 	this->add("SAM");
 	this->add("ARNOLD");
-	this->add("MAGGY");
 }
 

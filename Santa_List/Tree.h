@@ -3,7 +3,7 @@
 // Author      : Daniel McDonough
 // Version     :
 // Copyright   : Daniel McDonough 2017
-// Description : C++ TREE DEMO for MBU 2017
+// Description : Santa's List Assignment for MBU 2017
 //============================================================================
 
 #ifndef TREE_H_
@@ -14,7 +14,7 @@ using namespace std;
 
 class Node{
 public:
-	int data;
+	string Name;
 	Node* left;
 	Node* right;
 
@@ -25,33 +25,37 @@ class BST{
 private:
 	Node* makeEmpty(Node* t);
 
-	Node* insert(int x, Node* t);
+	Node* add(string x, Node* t);
 
 	Node* findMin(Node* t);
 
 	Node* findMax(Node* t);
 
-	Node* remove(int x, Node* t);
+	Node* remove(string x, Node* t);
 
 	void inorder(Node* t);
 
-	Node* find(Node* t, int x);
+	Node* find(Node* t, string x);
 
-	int find_count_steps(Node* t, int x, int count);
+
 
 public:
 	BST();
 
 	~BST();
 
-	void insert(int x);
+	void add(string x);
 
-	void remove(int x);
+	void remove(string x);
 
 	void display();
 
-	int search(int x);
+	int search(string x);
 
-	int search_and_checksteps(int x);
+	int find_count_steps(Node* t, string x, int count);
+
+	int search_and_checksteps(string x);
+
+	void populate();
 };
 #endif //TREE_H

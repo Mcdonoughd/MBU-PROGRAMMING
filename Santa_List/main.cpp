@@ -15,6 +15,14 @@
  * Then using the example data structures, implement one that allows your name to be searched
  * faster than in the regular list and compare the two.
  *
+ * NOTE: All you have to do is type your name, and set new_list as a faster data structure
+ *
+ * Possible Structures:
+ * 	LinkedList
+ * 	BST
+ * 	Queue
+ * 	Stack
+ *
  */
 
 //Includes
@@ -23,10 +31,12 @@
 #include <stdio.h>
 #include "List.h"
 #include "Tree.h"
+#include "Queue.h"
+#include "Stack.h"
 
 LinkedList old_list; //Old list is a Linked List
 
-string YOURNAME="     "; //INPUT YOUR NAME
+string YOURNAME=""; //INPUT YOUR NAME
 
 LinkedList new_list; //Change new_list's data type
 
@@ -36,22 +46,23 @@ int main(int argc, char const *argv[]){
 	//Populate List With All Names
 	old_list.populate();
 	new_list.populate();
+
 	//Add Your Name Into The List
 	old_list.add(YOURNAME);
 	new_list.add(YOURNAME);
 
-
+	//Count Steps It Takes To Find Your Name
 	int old_steps = old_list.find_count_steps(old_list.head,YOURNAME,0);
 	int new_steps = new_list.find_count_steps(new_list.head,YOURNAME,0);
 
-
-	if(new_steps<old_steps){
-		printf("Success!");
-		return 0;
+	//Check If New Structure Is Faster
+	if((new_steps<old_steps)){
+		printf("Hey we, found your name!");
 	}
 	else{
-		printf("NOPE, TRY AGAIN!");
+		printf("NOPE, TOO SLOW!");
 	}
+
 	return 0;
 }
 
