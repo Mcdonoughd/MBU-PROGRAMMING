@@ -22,7 +22,6 @@
  * 	BST
  * 	Queue
  * 	Stack
- *
  */
 
 //Includes
@@ -38,30 +37,51 @@ LinkedList old_list; //Old list is a Linked List
 
 string YOURNAME=""; //INPUT YOUR NAME
 
-LinkedList new_list; //Change new_list's data type
+BST new_list; //Change new_list's data type
 
 //MAIN FUNCTION
 int main(int argc, char const *argv[]){
-
-	//Populate List With All Names
-	old_list.populate();
-	new_list.populate();
 
 	//Add Your Name Into The List
 	old_list.add(YOURNAME);
 	new_list.add(YOURNAME);
 
+	//Populate List With All Names
+	old_list.populate();
+	new_list.populate();
+
 	//Count Steps It Takes To Find Your Name
 	int old_steps = old_list.find_count_steps(old_list.head,YOURNAME,0);
 	int new_steps = new_list.find_count_steps(new_list.head,YOURNAME,0);
 
-	//Check If New Structure Is Faster
-	if((new_steps<old_steps)){
-		printf("Hey we, found your name!");
+	//Check If New Structure Is Faster for Your Name
+	if((new_steps<old_steps )){
+		printf("Hey we, found your name! \n");
 	}
 	else{
-		printf("NOPE, TOO SLOW!");
+		printf("NOPE, TOO SLOW! \n");
+		printf("Oldsteps = %d \n",old_steps);
+		printf("Newsteps = %d \n",new_steps);
 	}
+
+	//Count Steps It Takes To Find DANNY
+	old_steps = old_list.find_count_steps(old_list.head,"DANNY",0);
+	new_steps = new_list.find_count_steps(new_list.head,"DANNY",0);
+
+	//Check If New Structure Is Faster for DANNY
+	if((new_steps<old_steps )){
+		printf("Hey we, found DANNY! \n");
+	}
+	else{
+		printf("NOPE, TOO SLOW! \n");
+		printf("Oldsteps = %d \n",old_steps);
+		printf("Newsteps = %d \n",new_steps);
+	}
+
+	/*
+	 * Try other names beside DANNY is it still faster? Why or Why not?
+	 * Note: Look at List.cpp populate function for list of valid Names
+	 */
 
 	return 0;
 }

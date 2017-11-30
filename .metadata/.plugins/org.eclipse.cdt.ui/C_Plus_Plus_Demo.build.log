@@ -1,6 +1,6 @@
-15:27:55 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+11:43:11 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:27:56 Build Finished (took 960ms)
+11:43:11 Build Finished (took 229ms)
 

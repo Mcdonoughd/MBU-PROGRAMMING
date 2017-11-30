@@ -32,7 +32,7 @@ void Stack::push(string data) {
 	head = this->head;
 		tail = this-> tail;
 	if (head == NULL) {
-		Node* n= new Node;
+		Stack_Node* n= new Stack_Node;
 
 		n->data = data;
 		n->next = NULL;
@@ -41,7 +41,7 @@ void Stack::push(string data) {
 		tail = n;
 
 	} else {
-		Node* n = new Node;
+		Stack_Node* n = new Stack_Node;
 		n->data = data;
 		n->next = head;
 		head = n;
@@ -64,7 +64,7 @@ void Stack::pop() {
 		tail = NULL;
 
 	} else {
-		Node* n = new Node;
+		Stack_Node* n = new Stack_Node;
 		n = head;
 		head = head->next;
 		printf("\nThe value %d was popped", n->data);
@@ -98,7 +98,7 @@ bool Stack::isEmpty() {
 }
 
 //Counts the number of steps to find the given name
-int Stack::find_count_steps(Node* t, string x, int count){
+int Stack::find_count_steps(Stack_Node* t, string x, int count){
 	if(t == NULL){
 		printf("Could Not Find What You're Looking For!\n");
 		return 0;
@@ -109,6 +109,44 @@ int Stack::find_count_steps(Node* t, string x, int count){
 	else
 		return count+1;
 }
+
+//Populate the Stack with Names
+void Stack::populate(){
+	this->add("MAGGY");
+	this->add("BOB");
+	this->add("BILLY");
+	this->add("SARAH");
+	this->add("WILLIAM");
+	this->add("MARGE");
+	this->add("BETTY");
+	this->add("ALISE");
+	this->add("KAT");
+	this->add("JON");
+	this->add("SURYA");
+	this->add("DAVID");
+	this->add("DORY");
+	this->add("NEMO");
+	this->add("SANCHEZ");
+	this->add("FRANCA");
+	this->add("DANNY");
+	this->add("DANI");
+	this->add("LILY");
+	this->add("GEORGE");
+	this->add("RICARDO");
+	this->add("ALEX");
+	this->add("TRISTAN");
+	this->add("SABASTIAN");
+	this->add("ANDREW");
+	this->add("JASON");
+	this->add("CHRIS");
+	this->add("ZACH");
+	this->add("MADDY");
+	this->add("MARTY");
+	this->add("SAM");
+	this->add("ARNOLD");
+}
+
+
 
 
 

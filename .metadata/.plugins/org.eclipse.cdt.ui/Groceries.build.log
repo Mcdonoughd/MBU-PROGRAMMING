@@ -1,6 +1,6 @@
-15:27:57 **** Incremental Build of configuration Debug for project Groceries ****
+11:43:12 **** Incremental Build of configuration Debug for project Groceries ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:27:57 Build Finished (took 243ms)
+11:43:12 Build Finished (took 177ms)
 

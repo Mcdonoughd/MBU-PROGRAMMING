@@ -25,7 +25,7 @@ Queue::~Queue(){
 
 //Push element in Queue
 void Queue::push(string Name){
-	Node* temp = new Node;
+	Queue_Node* temp = new Queue_Node;
 		temp->Name = Name;
 		temp->next = NULL;
 		if(head == NULL)
@@ -85,7 +85,7 @@ bool Queue::isEmpty() {
 }
 
 //Counts the number of steps to find the given name
-int Queue::find_count_steps(Node* t, string x, int count){
+int Queue::find_count_steps(Queue_Node* t, string x, int count){
 	if(t == NULL){
 		printf("Could Not Find What You're Looking For!\n");
 		return 0;

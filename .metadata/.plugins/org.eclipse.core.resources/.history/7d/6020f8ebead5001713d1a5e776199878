@@ -1,0 +1,61 @@
+//============================================================================
+// Name        : Tree.h
+// Author      : Daniel McDonough
+// Version     :
+// Copyright   : Daniel McDonough 2017
+// Description : Santa's List Assignment for MBU 2017
+//============================================================================
+
+#ifndef TREE_H_
+#define TREE_H_
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+class Node{
+public:
+	string Name;
+	Node* left;
+	Node* right;
+
+};
+
+class BST{
+	Node* root;
+private:
+	Node* makeEmpty(Node* t);
+
+	Node* add(string x, Node* t);
+
+	Node* findMin(Node* t);
+
+	Node* findMax(Node* t);
+
+	Node* remove(string x, Node* t);
+
+	void inorder(Node* t);
+
+	Node* find(Node* t, string x);
+
+
+
+public:
+	BST();
+
+	~BST();
+
+	void add(string x);
+
+	void remove(string x);
+
+	void display();
+
+	int search(string x);
+
+	int find_count_steps(Node* t, string x, int count);
+
+	int search_and_checksteps(string x);
+
+	void populate();
+};
+#endif //TREE_H

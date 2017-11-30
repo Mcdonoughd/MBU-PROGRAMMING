@@ -14,17 +14,17 @@ using namespace std;
 
 
 //Example of class creation in C++
-class Node{
+class List_Node{
 public:
-    Node* next; //pointer to the next node
-    string data; //the data in a node
+    List_Node* next; //pointer to the next List_Node
+    string data; //the data in a List_Node
 };
 
 
 class LinkedList{
 public:
     int length; //counter for the length of a list
-    Node* head; //A pointer to the 1st node
+    List_Node* head; //A pointer to the 1st List_Node
 
     //define the functions to be done on a list
 
@@ -32,7 +32,7 @@ public:
     ~LinkedList();
     void add(string data);
     void print();
-    int find_count_steps(Node* t, string x, int count);
+    int find_count_steps(List_Node* t, string x, int count);
     void populate();
 };
 #endif /* LIST_H_ */

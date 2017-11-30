@@ -5,14 +5,23 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../List.cpp \
+../Queue.cpp \
+../Stack.cpp \
+../Tree.cpp \
 ../main.cpp 
 
 OBJS += \
 ./List.o \
+./Queue.o \
+./Stack.o \
+./Tree.o \
 ./main.o 
 
 CPP_DEPS += \
 ./List.d \
+./Queue.d \
+./Stack.d \
+./Tree.d \
 ./main.d 
 
 

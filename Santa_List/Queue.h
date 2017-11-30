@@ -13,11 +13,11 @@
 #include <cstdlib>
 using namespace std;
 
-// Define node pointer
-class Node {
+// Define Queue_Node pointer
+class Queue_Node {
 public:
     string Name;
-    Node* next;
+    Queue_Node* next;
 };
 
 
@@ -25,10 +25,10 @@ public:
 class Queue{
 public:
     int length; //counter for the length of a Queue
-    Node* head;
-    Node* tail;
-    Node *prev;
-    Node *temp;
+    Queue_Node* head;
+    Queue_Node* tail;
+    Queue_Node *prev;
+    Queue_Node *temp;
 //define the functions to be done on a Queue
     Queue();
     ~Queue();
@@ -39,7 +39,7 @@ public:
     void top();
     bool isEmpty();
     void populate();
-    int find_count_steps(Node* t, string x, int count);
+    int find_count_steps(Queue_Node* t, string x, int count);
 };
 // Head and tail pointers
 

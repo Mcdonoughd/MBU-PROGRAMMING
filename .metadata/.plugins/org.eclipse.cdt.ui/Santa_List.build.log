@@ -1,6 +1,15 @@
-15:27:58 **** Incremental Build of configuration Debug for project Santa_List ****
+11:44:04 **** Incremental Build of configuration Debug for project Santa_List ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
 
-15:27:58 Build Finished (took 256ms)
+11:44:05 Build Finished (took 597ms)
 

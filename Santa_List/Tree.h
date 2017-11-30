@@ -12,35 +12,36 @@
 #include<stdio.h>
 using namespace std;
 
-class Node{
+class Tree_Node{
 public:
 	string Name;
-	Node* left;
-	Node* right;
+	Tree_Node* left;
+	Tree_Node* right;
 
 };
 
 class BST{
-	Node* root;
+
 private:
-	Node* makeEmpty(Node* t);
+	Tree_Node* makeEmpty(Tree_Node* t);
 
-	Node* add(string x, Node* t);
+	Tree_Node* add(string x, Tree_Node* t);
 
-	Node* findMin(Node* t);
+	Tree_Node* findMin(Tree_Node* t);
 
-	Node* findMax(Node* t);
+	Tree_Node* findMax(Tree_Node* t);
 
-	Node* remove(string x, Node* t);
+	Tree_Node* remove(string x, Tree_Node* t);
 
-	void inorder(Node* t);
+	void inorder(Tree_Node* t);
 
-	Node* find(Node* t, string x);
+	Tree_Node* find(Tree_Node* t, string x);
 
 
 
 public:
 	BST();
+	Tree_Node* head;
 
 	~BST();
 
@@ -50,9 +51,9 @@ public:
 
 	void display();
 
-	int search(string x);
+	string search(string x);
 
-	int find_count_steps(Node* t, string x, int count);
+	int find_count_steps(Tree_Node* t, string x, int count);
 
 	int search_and_checksteps(string x);
 

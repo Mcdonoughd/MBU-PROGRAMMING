@@ -1,6 +1,6 @@
-15:27:59 **** Incremental Build of configuration Debug for project Tree_Demo ****
+11:43:14 **** Incremental Build of configuration Debug for project Tree_Demo ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:27:59 Build Finished (took 242ms)
+11:43:14 Build Finished (took 302ms)
 

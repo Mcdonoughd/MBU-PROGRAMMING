@@ -13,19 +13,19 @@
 #include <cstdlib>
 using namespace std;
 
-// Define node pointer
-class Node {
+// Define Stack_Node pointer
+class Stack_Node {
 public:
     string data;
-    Node* next;
+    Stack_Node* next;
 };
 
 
 class Stack{
 public:
     int length; //counter for the length of a stack
-    Node* head;
-    Node* tail;
+    Stack_Node* head;
+    Stack_Node* tail;
 //define the functions to be done on a stack
     Stack();
     ~Stack();
@@ -36,7 +36,7 @@ public:
     bool isEmpty();
     void populate();
     void add(string Name);
-    int find_count_steps(Node* t, string x, int count);
+    int find_count_steps(Stack_Node* t, string x, int count);
 };
 // Head and tail pointers
 

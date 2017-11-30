@@ -20,21 +20,21 @@ LinkedList::LinkedList(){
 
 //Destructor to Delete a LinkedList
 LinkedList::~LinkedList(){
-	std::cout << "LIST DELETED";
+	//std::cout << "LIST DELETED" << std::endl;
 }
 
 //Adds a Name to the List
 void LinkedList::add(string data){
-	Node* node = new Node();
-	node->data = data;
-	node->next = this->head;
-	this->head = node;
+	List_Node* n = new List_Node();
+	n->data = data;
+	n->next = this->head;
+	this->head = n;
 	this->length++;
 }
 
 //Prints the List
 void LinkedList::print(){
-	Node* head = this->head;
+	List_Node* head = this->head;
 	int i = 1;
 	while(head){
 		std::cout << i << ": " << head->data << std::endl;
@@ -44,7 +44,7 @@ void LinkedList::print(){
 }
 
 //Counts the number of steps to find the given name
-int LinkedList::find_count_steps(Node* t, string x, int count){
+int LinkedList::find_count_steps(List_Node* t, string x, int count){
 	if(t == NULL){
 		printf("Could Not Find What You're Looking For!\n");
 		return 0;
