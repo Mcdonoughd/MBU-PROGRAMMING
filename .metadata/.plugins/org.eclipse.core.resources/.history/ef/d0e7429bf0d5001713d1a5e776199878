@@ -9,7 +9,6 @@
 #include "Queue.h"
 #include<stdio.h>
 
-//Queue constructor
 Queue::Queue(){
 	this->length = 0;
 	this->head = NULL;
@@ -18,7 +17,6 @@ Queue::Queue(){
 	this->temp =NULL;
 }
 
-//Queue Destructor
 Queue::~Queue(){
 
 }

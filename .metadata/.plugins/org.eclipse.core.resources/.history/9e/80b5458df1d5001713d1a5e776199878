@@ -23,7 +23,6 @@ Node* BST::makeEmpty(Node* t){
         return NULL;
     }
 
-//Add element to the tree
     Node* BST::insert(int x, Node* t){
         if(t == NULL)
         {
@@ -38,7 +37,6 @@ Node* BST::makeEmpty(Node* t){
         return t;
     }
 
-//find the leftmost node in the tree
     Node* BST::findMin(Node* t){
         if(t == NULL)
             return NULL;
@@ -48,7 +46,6 @@ Node* BST::makeEmpty(Node* t){
             return findMin(t->left);
     }
 
-//find the rightmost node in the tree
     Node* BST::findMax(Node* t){
         if(t == NULL)
             return NULL;
@@ -58,7 +55,6 @@ Node* BST::makeEmpty(Node* t){
             return findMax(t->right);
     }
 
-//Remove element from the Tree
     Node* BST::remove(int x, Node* t){
         Node* temp;
         if(t == NULL)
@@ -86,7 +82,6 @@ Node* BST::makeEmpty(Node* t){
         return t;
     }
 
-    //print elements in order
     void BST::inorder(Node* t){
         if(t == NULL)
             return;
@@ -95,7 +90,6 @@ Node* BST::makeEmpty(Node* t){
         inorder(t->right);
     }
 
-    //find a node in the tree
     Node* BST::find(Node* t, int x){
         if(t == NULL)
             return NULL;
@@ -106,8 +100,6 @@ Node* BST::makeEmpty(Node* t){
         else
             return t;
     }
-
-    //find a node and count the steps
     int BST::find_count_steps(Node* t, int x, int count){
     		if(t == NULL){
     			printf("THE TREE IS EMPTY\n");
@@ -124,31 +116,27 @@ Node* BST::makeEmpty(Node* t){
     			return count;
     	}
 
-    //Tree constructor
     BST::BST(){
         root = NULL;
     }
-    //tree destructor
+
     BST::~BST(){
         root = makeEmpty(root);
     }
 
-    //add element to tree
     void BST::insert(int x){
         root = insert(x, root);
     }
 
-    //remove element from tree
     void BST::remove(int x){
         root = remove(x, root);
     }
-    //print tree
+
     void BST::display(){
         inorder(root);
         cout << endl;
     }
 
-    //find node in tree
     int BST::search(int x){
     	int y = find(root, x)->data;
     			return y;

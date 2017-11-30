@@ -40,7 +40,7 @@ int main(int argc,char* argv[]) {
 
 	//when the loop reaches the end of the block, the computer checks if the condition is satisfied. if not it does i++ (or i= i+1)
 	}
-	//Once the condition is satisfied, the for loop exits the block
+	//once the condition is satisfied, the for loop exits the block
 
 	printf("The for-loop was exited \n"); //another way to print in C++
 

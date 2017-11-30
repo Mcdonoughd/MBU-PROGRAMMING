@@ -23,8 +23,6 @@ int main(int argc, char const *argv[])
 
     //Print the list
     list.print();
-
-    //print List Length
     std::cout << "List Length: " << list.length << std::endl;
 
     return 0;

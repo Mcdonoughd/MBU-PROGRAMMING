@@ -11,6 +11,7 @@
 #include<stdio.h>
 using namespace std;
 #include "Queue.h"
+
 // Forward Reference of Functions
 int menu();
 
@@ -20,27 +21,32 @@ int main() {
 	Queue my_queue;
 
 	int choice;
-
+//This DEMO is interactive and is best explained by fooling around with the options
 	do {
 		choice = menu();
 
 		switch(choice) {
 		case 1:
+			//add value
 			int data;
 			cout<<"Enter value to be stored in Queue:";
 			cin>>data;
 			my_queue.push(data);
 			break;
 		case 2:
+			//remove value from queue
 			my_queue.pop();
 			break;
 		case 3:
+			//look at the top of the queue
 			my_queue.top();
 			break;
 		case 4:
+			//check if the queue is empty
 			my_queue.isEmpty();
 			break;
 		case 5:
+			//print the length of the queue
 			cout<<"Queue length:"<<my_queue.length<<endl;
 			break;
 		case -1:

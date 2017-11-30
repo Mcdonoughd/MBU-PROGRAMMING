@@ -10,14 +10,11 @@
 #include "Stack.h"
 #include<stdio.h>
 
-//Stack Constructor
 Stack::Stack(){
 	this->length = 0;
 	this->head = NULL;
 	this->tail = NULL;
 }
-
-//Stack destructor
 Stack::~Stack(){
 
 }

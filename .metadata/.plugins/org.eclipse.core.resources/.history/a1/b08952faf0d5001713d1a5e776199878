@@ -33,19 +33,15 @@ int main() {
 			my_stack.push(data);
 			break;
 		case 2:
-			//remove value from the stack
 			my_stack.pop();
 			break;
 		case 3:
-			//look at the top of the stack
 			my_stack.top();
 			break;
 		case 4:
-			//check if the stack is empty
 			my_stack.isEmpty();
 			break;
 		case 5:
-			//print length of the stack
 			cout<< "The length of the Stack is: "<< my_stack.length<<endl;
 			break;
 		case -1:

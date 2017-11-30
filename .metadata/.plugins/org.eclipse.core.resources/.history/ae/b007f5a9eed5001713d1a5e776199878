@@ -11,19 +11,15 @@
 
 //YOU DO NOT HAVE TO KNOW HOW THESE FUNCTIONS WORK
 //BUT YOU SHOULD KNOW WHAT THEY DO
-
-//List Constructor
 LinkedList::LinkedList(){
     this->length = 0;
     this->head = NULL;
 }
 
-//List Destructor
 LinkedList::~LinkedList(){
     std::cout << "LIST DELETED";
 }
 
-//Add element to the list
 void LinkedList::add(int data){
 	if (head == NULL) {
 		Node* n= new Node;
@@ -40,7 +36,6 @@ void LinkedList::add(int data){
 
 }
 
-//Print List
 void LinkedList::print(){
     Node* head = this->head;
     int i = 1;

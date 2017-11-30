@@ -3,55 +3,50 @@
 // Author      : Daniel McDonough
 // Version     :
 // Copyright   : Daniel McDonough 2017
-// Description : C++ Stack DEMO for MBU 2017
+// Description : C++ QUEUE DEMO for MBU 2017
 //============================================================================
 
 
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-#include "Stack.h"
+#include "Queue.h"
+
 // Forward Reference of Functions
 int menu();
 
 //Main function
 int main() {
 
-	Stack my_stack;
+	Queue my_queue;
 
 	int choice;
-	//This DEMO is interactive and is best explained by fooling around with the options
+
 	do {
 		choice = menu();
 
 		switch(choice) {
 		case 1:
-			//put values into the stack
 			int data;
-			cout<<"Enter value to be stored in stack: ";
+			cout<<"Enter value to be stored in Queue:";
 			cin>>data;
-			my_stack.push(data);
+			my_queue.push(data);
 			break;
 		case 2:
-			//remove value from the stack
-			my_stack.pop();
+			my_queue.pop();
 			break;
 		case 3:
-			//look at the top of the stack
-			my_stack.top();
+			my_queue.top();
 			break;
 		case 4:
-			//check if the stack is empty
-			my_stack.isEmpty();
+			my_queue.isEmpty();
 			break;
 		case 5:
-			//print length of the stack
-			cout<< "The length of the Stack is: "<< my_stack.length<<endl;
+			cout<<"Queue length:"<<my_queue.length<<endl;
 			break;
 		case -1:
 			choice = -1;
 			break;
-
 		default: printf("\nEnter a valid choice!!");
 		}
 	} while(choice != -1);
@@ -62,10 +57,12 @@ int main() {
 //Menu function for demo
 int menu() {
 	int ch;
-	printf("\nStack");
-	printf("\n1.Push\n2.Pop\n3.Top element\n4.Is Empty\n5.Stack Length\n-1Exit");
+	printf("\nQueue");
+	printf("\n1.Push\n2.Pop\n3.Top element\n4.Is Empty\n5.Queue_length\n-1.Exit");
 	printf("\nEnter your Choice:");
 	scanf("%d",&ch);
 	return ch;
 }
+
+
 
