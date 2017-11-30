@@ -98,7 +98,6 @@ bool Stack::isEmpty() {
 	}
 }
 
-//print the stack
 void Stack::print(){
 	Node* head = this->head;
 	int i = 1;

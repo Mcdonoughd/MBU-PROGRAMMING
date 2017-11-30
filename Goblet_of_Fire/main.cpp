@@ -8,7 +8,8 @@
 
 
 /*
- * You're in line to get your house assignments by the sorting hat at Hogwarts.
+ * You've just got your ticket to Hogwarts!
+ * Enter the line to get your house assignments by the sorting hat.
  * Using the Interface, show that you know what is happening in this program,
  * and show what house YOU belong to.
  *

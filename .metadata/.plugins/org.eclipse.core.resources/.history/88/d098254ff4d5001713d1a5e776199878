@@ -3,28 +3,31 @@
 // Author      : Daniel McDonough
 // Version     :
 // Copyright   : Daniel McDonough 2017
-// Description : LordofTheRings Assignment for MBU 2017
+// Description : Goblet_of_Fire Assignment for MBU 2017
 //============================================================================
 
+
 /*
- * One of Surya's favorite books is somewhere in this Large pile.
- * Help him go through it to find his favorite book "Lord of the Rings"
+ * You're in line to get your house assignments by the sorting hat at Hogwarts.
+ * Using the Interface, show that you know what is happening in this program,
+ * and show what house YOU belong to.
  *
- * NOTE: You must show the instructor the top of the pile AND the length of the pile.
  */
+
 
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-#include "Stack.h"
+#include "Queue.h"
 // Forward Reference of Functions
 int menu();
 
 //Main function
 int main() {
 
-	Stack my_stack;
-	my_stack.populate();
+	Queue my_queue;
+	my_queue.populate();
+
 	int choice;
 	string data;
 	do {
@@ -32,30 +35,28 @@ int main() {
 
 		switch(choice) {
 		case 1:
-
-			cout<<"What book should go on the stack? ";
+			cout<<"Who joins the line? ";
 			cin>>data;
-			my_stack.push(data);
+			my_queue.push(data);
 			break;
 		case 2:
-			my_stack.pop();
+			my_queue.pop();
 			break;
 		case 3:
-			my_stack.top();
+			my_queue.top();
 			break;
 		case 4:
-			my_stack.isEmpty();
+			my_queue.isEmpty();
 			break;
 		case 5:
-			cout<< "The length of the Stack is: "<< my_stack.length<<endl;
+			cout<<"Queue length:"<<my_queue.length<<endl;
 			break;
 		case 6:
-			my_stack.print();
+			my_queue.print();
 			break;
 		case -1:
 			choice = -1;
 			break;
-
 		default: printf("\nEnter a valid choice!!");
 		}
 	} while(choice != -1);
@@ -66,10 +67,11 @@ int main() {
 //Menu function for demo
 int menu() {
 	int ch;
-	printf("\nBook Pile");
-	printf("\n1.Push\n2.Pop\n3.Top element\n4.Is Empty\n5.Stack Length\n6.Print Stack\n-1Exit");
+	printf("\nHogwarts");
+	printf("\n1.Push\n2.Pop\n3.Top element\n4.Is Empty\n5.Queue_length\n6.Print Queue\n-1.Exit");
 	printf("\nEnter your Choice:");
 	scanf("%d",&ch);
 	return ch;
 }
+
 

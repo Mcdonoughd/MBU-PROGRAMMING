@@ -1,6 +1,6 @@
-11:43:11 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+12:22:51 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
 make all 
 make: Nothing to be done for 'all'.
 
-11:43:12 Build Finished (took 229ms)
+12:22:51 Build Finished (took 341ms)
 

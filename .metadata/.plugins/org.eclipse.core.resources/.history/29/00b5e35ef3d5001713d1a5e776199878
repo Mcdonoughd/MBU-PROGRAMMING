@@ -8,7 +8,7 @@
 
 #include "Queue.h"
 #include<stdio.h>
-//Queue constructor
+
 Queue::Queue(){
 	this->length = 0;
 	this->head = NULL;
@@ -16,7 +16,6 @@ Queue::Queue(){
 	this->prev=NULL;
 	this->temp =NULL;
 }
-//queue destructor
 Queue::~Queue(){
 
 }
@@ -42,7 +41,7 @@ void Queue::push(string data) {
 // Pop first element in Queue
 void Queue::pop() {
 	if (head == NULL) {
-		printf("\nThe Queue is empty.");
+		printf("\nThe stack is empty.");
 		return;
 	}
 	srand ( time(NULL) ); //initialize the random seed
@@ -78,7 +77,6 @@ bool Queue::isEmpty() {
 		return false;
 	}
 }
-//Print queue
 void Queue::print(){
 	Node* head = this->head;
 	int i = 1;
@@ -88,7 +86,6 @@ void Queue::print(){
 		i++;
 	}
 }
-//Populate the queue
 void Queue::populate(){
 	this->push("Harry");
 	this->push("Arin");

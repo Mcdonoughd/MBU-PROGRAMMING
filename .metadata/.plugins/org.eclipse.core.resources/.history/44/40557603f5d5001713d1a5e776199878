@@ -10,7 +10,7 @@
  * One of Surya's favorite books is somewhere in this Large pile.
  * Help him go through it to find his favorite book "Lord of the Rings"
  *
- * NOTE: You must show the instructor the top of the pile AND the length of the pile.
+ * NOTE: Show the instructor by showing them the top of the pile AND the length of the pile.
  */
 
 #include<iostream>
