@@ -26570,3 +26570,207 @@ Finished building target: List_Demo
 12:22:51 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
 make all 
 make: Nothing to be done for 'all'.
+13:20:16 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../List.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"List.d" -MT"List.o" -o "List.o" "../List.cpp"
+Finished building: ../List.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+13:23:14 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+13:24:46 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+13:26:40 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:37:6: warning: unused variable ‘list_length’ [-Wunused-variable]
+  int list_length = grocery_list.length; //length of the grocery list
+      ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+13:27:12 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: C_Plus_Plus_Demo
+Invoking: Cross G++ Linker
+g++  -o "C_Plus_Plus_Demo"  ./main.o   
+Finished building target: C_Plus_Plus_Demo
+ 
+13:27:13 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+Building file: ../Queue.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Queue.d" -MT"Queue.o" -o "Queue.o" "../Queue.cpp"
+Finished building: ../Queue.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Goblet_of_Fire
+Invoking: Cross G++ Linker
+g++  -o "Goblet_of_Fire"  ./Queue.o ./main.o   
+Finished building target: Goblet_of_Fire
+ 
+13:27:14 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:37:6: warning: unused variable ‘list_length’ [-Wunused-variable]
+  int list_length = grocery_list.length; //length of the grocery list
+      ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+13:27:15 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+13:27:15 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+Building file: ../Stack.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stack.d" -MT"Stack.o" -o "Stack.o" "../Stack.cpp"
+Finished building: ../Stack.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: LordofTheRings
+Invoking: Cross G++ Linker
+g++  -o "LordofTheRings"  ./Stack.o ./main.o   
+Finished building target: LordofTheRings
+ 
+13:27:16 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+Building file: ../Queue.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Queue.d" -MT"Queue.o" -o "Queue.o" "../Queue.cpp"
+Finished building: ../Queue.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Queue_Demo
+Invoking: Cross G++ Linker
+g++  -o "Queue_Demo"  ./Queue.o ./main.o   
+Finished building target: Queue_Demo
+ 
+13:27:17 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+13:27:18 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+Building file: ../Stack.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stack.d" -MT"Stack.o" -o "Stack.o" "../Stack.cpp"
+Finished building: ../Stack.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Stack_Demo
+Invoking: Cross G++ Linker
+g++  -o "Stack_Demo"  ./Stack.o ./main.o   
+Finished building target: Stack_Demo
+ 
+13:27:19 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+Building file: ../Tree.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Tree.d" -MT"Tree.o" -o "Tree.o" "../Tree.cpp"
+Finished building: ../Tree.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Tree_Demo
+Invoking: Cross G++ Linker
+g++  -o "Tree_Demo"  ./Tree.o ./main.o   
+Finished building target: Tree_Demo
+ 
+13:27:20 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:09 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:39:6: warning: unused variable ‘list_length’ [-Wunused-variable]
+  int list_length = grocery_list.length; //length of the grocery list
+      ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 

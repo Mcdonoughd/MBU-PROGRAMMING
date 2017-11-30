@@ -1,6 +1,19 @@
-11:43:12 **** Incremental Build of configuration Debug for project Groceries ****
+13:28:09 **** Incremental Build of configuration Debug for project Groceries ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:39:6: warning: unused variable ‘list_length’ [-Wunused-variable]
+  int list_length = grocery_list.length; //length of the grocery list
+      ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
 
-11:43:12 Build Finished (took 177ms)
+13:28:10 Build Finished (took 537ms)
 

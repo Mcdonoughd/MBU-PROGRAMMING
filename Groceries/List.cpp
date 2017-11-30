@@ -11,15 +11,19 @@
 
 //YOU DO NOT HAVE TO KNOW HOW THESE FUNCTIONS WORK
 //BUT YOU SHOULD KNOW WHAT THEY DO
+
+//List constructor
 LinkedList::LinkedList(){
 	this->length = 0;
 	this->head = NULL;
 }
 
+//list destructor
 LinkedList::~LinkedList(){
 	std::cout << "LIST DELETED";
 }
 
+//Add element to List
 void LinkedList::add(int data, string name){
 	Node* head = this->head;
 	int i = 1;
@@ -41,6 +45,7 @@ void LinkedList::add(int data, string name){
 	this->length++;
 }
 
+//print List
 void LinkedList::print(){
 	Node* head = this->head;
 	int i = 1;
@@ -51,6 +56,7 @@ void LinkedList::print(){
 	}
 }
 
+//populate the list
 void LinkedList::populate(){
 	this->add(3,"Apples");
 	this->add(5,"Bananas");
