@@ -1,4 +1,4 @@
-19:55:05 **** Incremental Build of configuration Debug for project Groceries ****
+20:17:58 **** Incremental Build of configuration Debug for project Groceries ****
 make all 
 Building file: ../main.cpp
 Invoking: Cross G++ Compiler
@@ -10,5 +10,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "mai
 subdir.mk:21: recipe for target 'main.o' failed
 make: *** [main.o] Error 1
 
-19:55:05 Build Finished (took 426ms)
+20:17:58 Build Finished (took 479ms)
 

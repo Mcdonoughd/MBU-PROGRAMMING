@@ -1,0 +1,7 @@
+20:17:59 **** Incremental Build of configuration Default for project Santa ****
+make all 
+g++ -g -Wall -c Queue.cpp -lm
+g++ -g -Wall main.o List.o Tree.o Stack.o Queue.o -o Santa_List -lm
+
+20:18:00 Build Finished (took 578ms)
+
