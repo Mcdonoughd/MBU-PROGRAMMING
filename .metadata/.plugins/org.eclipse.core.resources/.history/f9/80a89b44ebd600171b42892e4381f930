@@ -1,0 +1,88 @@
+//============================================================================
+// Name        : main.cpp
+// Author      : Daniel McDonough
+// Version     : 1.2
+// Copyright   : Daniel McDonough 2017
+// Description : Santa's List Assignment for MBU 2017
+//============================================================================
+
+
+/*
+ * Santa has a list of everyone in the world. Keeping track of it is such a hassle.
+ * It takes a long time to go through all the names, just to find the one he needs.
+ * Santa needs your help to develop a program that allows for quick, organized searches
+ * of his list. Given a test program, add your name to the bottom of the list.
+ * Then using the example data structures, implement one that allows your name to be searched
+ * faster than in the regular list and compare the two.
+ *
+ * NOTE: All you have to do is type your name, and set new_list as a faster data structure
+ *
+ * Possible Structures:
+ * 	LinkedList
+ * 	BST
+ * 	Queue
+ * 	Stack
+ */
+
+//Includes
+#include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+#include "List.h"
+#include "Tree.h"
+#include "Queue.h"
+#include "Stack.h"
+
+LinkedList old_list; //Old list is a Linked List
+
+string YOURNAME=""; //INPUT YOUR NAME
+
+Stack new_list; //Change new_list's data type
+
+//MAIN FUNCTION
+int main(int argc, char const *argv[]){
+
+	//Add Your Name Into The List
+	old_list.add(YOURNAME);
+	new_list.add(YOURNAME);
+
+	//Populate List With All Names
+	old_list.populate();
+	new_list.populate();
+
+	//Count Steps It Takes To Find Your Name
+	int old_steps = old_list.find_count_steps(old_list.head,YOURNAME,0);
+	int new_steps = new_list.find_count_steps(new_list.head,YOURNAME,0);
+
+	//Check If New Structure Is Faster for Your Name
+	if((new_steps<old_steps )){
+		printf("Hey we, found your name! \n");
+	}
+	else{
+		printf("NOPE, TOO SLOW! \n");
+		printf("Oldsteps = %d \n",old_steps);
+		printf("Newsteps = %d \n",new_steps);
+	}
+
+	//Count Steps It Takes To Find DANNY
+	old_steps = old_list.find_count_steps(old_list.head,"DANNY",0);
+	new_steps = new_list.find_count_steps(new_list.head,"DANNY",0);
+
+	//Check If New Structure Is Faster for DANNY
+	if((new_steps<old_steps )){
+		printf("Hey we, found DANNY! \n");
+	}
+	else{
+		printf("NOPE, TOO SLOW! \n");
+		printf("Oldsteps = %d \n",old_steps);
+		printf("Newsteps = %d \n",new_steps);
+	}
+
+	/*
+	 * Try other names beside DANNY is it still faster? Why or Why not?
+	 * Note: Look at List.cpp populate function for list of valid Names
+	 */
+
+	return 0;
+}
+

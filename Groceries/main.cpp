@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : main.cpp
 // Author      : Daniel McDonough
-// Version     :
+// Version     : 1.2
 // Copyright   : Daniel McDonough 2017
 // Description : Groceries assignment for MBU 2017
 //============================================================================
@@ -25,8 +25,10 @@
 #include <cstdlib>
 #include <stdio.h>
 #include "List.h"
+using namespace std;
 
 LinkedList grocery_list;
+
 int main(int argc, char const *argv[]){
 
 	grocery_list.populate(); //Populate List with example DATA
@@ -39,19 +41,22 @@ int main(int argc, char const *argv[]){
 	 * 		Item amount = Item->amount
 	 * 		Next Item = Item->next
 	 * 		Remember How a For Loop Works! (What should you do to your upper bound?)
+	 * 		List Length = grocery_list.length (you shouldn't need this)
 	 */
 
-	while(Item){ //While an Item exists..
+	while(Item){ //While an Item exists, collect all the items
 
-		//Your Code
+		//Your Code (save the upper bound)
 
-		for(int j = 0; j < /*Item_amount*/ ;j++){
+		for(int j = 0; j < /*Upper Bound*/ ;j++){
 
-			//Your Code
+			//Your Code (subtract one from the item amount)
 
+			cout << "I need " << Item->amount << " more " << Item->item_name<<endl; //"I need # more ITEM"
 		}
 
-		//Your Code
+		//Your Code (get the next Item)
+
 	}
 
 	grocery_list.print(); //Should output all items with all zeroes

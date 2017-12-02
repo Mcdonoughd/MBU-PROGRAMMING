@@ -26774,3 +26774,1093 @@ Invoking: Cross G++ Linker
 g++  -o "Groceries"  ./List.o ./main.o   
 Finished building target: Groceries
  
+17:54:13 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+17:55:54 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+17:57:23 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+17:58:03 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+17:59:26 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+17:59:43 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+17:59:57 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+18:07:19 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+18:09:46 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+18:10:26 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+18:12:09 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+18:13:32 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+18:47:45 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:45 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:46 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:46 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:46 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:47 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:47 **** Build of configuration Default for project Santa2 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+18:47:48 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:48 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:49 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:41 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:43 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:43 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:52:61: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+    printf("I need %d more %s", Item->amount, Item->item_name);
+                                                             ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+19:31:47 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:48 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:48 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:49 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+19:31:50 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:50 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:04 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:04 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:05 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:52:45: error: expected ‘)’ before ‘Item’
+    printf("I need %d more %s", Item->amount Item->item_name);
+                                             ^
+../main.cpp:52:60: warning: format ‘%s’ expects a matching ‘char*’ argument [-Wformat=]
+    printf("I need %d more %s", Item->amount Item->item_name);
+                                                            ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:32:05 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:05 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:06 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:06 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:06 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:07 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:58 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:58 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:59 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:52:4: warning: label ‘std’ defined but not used [-Wunused-label]
+    std:cout << "I need " << Item->amount << " more " << Item->item_name << "s" <<endl;
+    ^
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+19:35:00 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:00 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:00 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:01 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:01 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:01 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:25 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:26 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:26 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+19:35:27 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:27 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:27 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:28 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:28 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:28 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:32 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:46 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Groceries
+Invoking: Cross G++ Linker
+g++  -o "Groceries"  ./List.o ./main.o   
+Finished building target: Groceries
+ 
+19:43:54 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:54 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:54 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:43:55 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:55 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:56 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:56 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:56 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:57 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:48:06 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:58:5: error: decl-specifier invalid in condition
+  if(typedef LinkedList old_steps){
+     ^
+../main.cpp:58:24: error: typedef ‘old_steps’ is initialized (use decltype instead)
+  if(typedef LinkedList old_steps){
+                        ^
+../main.cpp:58:33: error: expected ‘=’ before ‘)’ token
+  if(typedef LinkedList old_steps){
+                                 ^
+../main.cpp:58:33: error: expected primary-expression before ‘)’ token
+../main.cpp:65:40: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %s!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:49:49 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:49 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:49 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:49:50 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:50 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:50 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:51 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:58:12: error: must #include <typeinfo> before using typeid
+  if(typeid(old_list).name() != "LinkedList"){
+            ^
+../main.cpp:65:40: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %s!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:49:51 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:51 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:00 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:01 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:01 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:01 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:02 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:02 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:02 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:58:12: error: must #include <typeinfo> before using typeid
+  if(typeid(old_list) != "LinkedList"){
+            ^
+../main.cpp:65:40: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %s!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:03 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:03 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:05 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:05 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:05 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:06 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:06 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:06 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:07 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:58:12: error: must #include <typeinfo> before using typeid
+  if(typeid(old_list) != "LinkedList"){
+            ^
+../main.cpp:65:40: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %s!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:07 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:07 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:26 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:26 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:27 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:50:27 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:27 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:28 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:28 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:58:12: error: must #include <typeinfo> before using typeid
+  if(typeid(old_list) != "LinkedList"){
+            ^
+../main.cpp:65:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:28 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:29 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:42 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:42 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:43 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:50:43 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:43 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:44 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:44 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:59:22: error: no match for ‘operator!=’ (operand types are ‘const std::type_info’ and ‘const char [11]’)
+  if(typeid(old_list) != "LinkedList"){
+                      ^
+In file included from ../main.cpp:28:0:
+/usr/include/c++/5/typeinfo:136:10: note: candidate: bool std::type_info::operator!=(const std::type_info&) const
+     bool operator!=(const type_info& __arg) const _GLIBCXX_NOEXCEPT
+          ^
+/usr/include/c++/5/typeinfo:136:10: note:   no known conversion for argument 1 from ‘const char [11]’ to ‘const std::type_info&’
+In file included from /usr/include/c++/5/iosfwd:40:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/postypes.h:221:5: note: candidate: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator!=(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/include/c++/5/bits/postypes.h:221:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::fpos<_StateT>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/stl_pair.h:227:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator!=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/include/c++/5/bits/stl_pair.h:227:5: note:   template argument deduction/substitution failed:
+subdir.mk:30: recipe for target 'main.o' failed
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::pair<_T1, _T2>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/stl_iterator.h:304:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator!=(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:304:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/stl_iterator.h:354:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator!=(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:354:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/allocator.h:140:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator!=(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:140:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::allocator<_CharT>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/allocator.h:146:5: note: candidate: template<class _Tp> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator!=(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:146:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::allocator<_CharT>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/basic_string.h:4950:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4950:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/basic_string.h:4962:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4962:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   mismatched types ‘const _CharT*’ and ‘std::type_info’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/basic_string.h:4974:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4974:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+In file included from /usr/include/c++/5/bits/locale_facets.h:48:0,
+                 from /usr/include/c++/5/bits/basic_ios.h:37,
+                 from /usr/include/c++/5/ios:44,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../main.cpp:29:
+/usr/include/c++/5/bits/streambuf_iterator.h:210:5: note: candidate: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator!=(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/include/c++/5/bits/streambuf_iterator.h:210:5: note:   template argument deduction/substitution failed:
+../main.cpp:59:25: note:   ‘const std::type_info’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+  if(typeid(old_list) != "LinkedList"){
+                         ^
+../main.cpp:66:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+make: *** [main.o] Error 1
+19:50:45 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:45 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:17 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:17 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:17 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:51:18 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:18 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:19 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:19 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:28:0:
+/usr/include/c++/5/typeinfo: In function ‘int main(int, const char**)’:
+/usr/include/c++/5/typeinfo:171:17: error: ‘const char* std::type_info::__name’ is protected
+     const char *__name;
+                 ^
+../main.cpp:59:22: error: within this context
+  if(typeid(old_list).__name != "LinkedList"){
+                      ^
+../main.cpp:59:32: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+  if(typeid(old_list).__name != "LinkedList"){
+                                ^
+../main.cpp:66:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:51:19 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:20 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:33 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:33 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:33 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:51:34 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:34 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:34 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:35 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:59:32: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+  if(typeid(old_list).name() != "LinkedList"){
+                                ^
+../main.cpp:66:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+19:51:36 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:37 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:31 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:31 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:32 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:52:33 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:33 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:34 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:34 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:59:50: error: ‘strncmp’ was not declared in this scope
+  if(strncmp(typeid(old_list).name(), "LinkedList")){
+                                                  ^
+../main.cpp:66:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+make: *** [main.o] Error 1
+subdir.mk:30: recipe for target 'main.o' failed
+19:52:34 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:35 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:43 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:43 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:43 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+make: *** [main.o] Error 1
+subdir.mk:21: recipe for target 'main.o' failed
+19:53:44 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:45 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:45 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:46 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:59:51: error: ‘strncmp’ was not declared in this scope
+  if(!strncmp(typeid(old_list).name(), "LinkedList")){
+                                                   ^
+../main.cpp:67:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+make: *** [main.o] Error 1
+subdir.mk:30: recipe for target 'main.o' failed
+19:53:46 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:46 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:51 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:51 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:51 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:53:52 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:52 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:52 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:53 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:59:50: error: ‘strcmp’ was not declared in this scope
+  if(!strcmp(typeid(old_list).name(), "LinkedList")){
+                                                  ^
+../main.cpp:67:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+make: *** [main.o] Error 1
+subdir.mk:30: recipe for target 'main.o' failed
+19:53:53 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:53 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:15 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:15 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:15 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:54:16 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:16 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:17 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:17 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:61:51: error: too few arguments to function ‘int strncmp(const char*, const char*, size_t)’
+  if(!strncmp(typeid(old_list).name(), "LinkedList")){
+                                                   ^
+In file included from ../main.cpp:29:0:
+/usr/include/string.h:143:12: note: declared here
+ extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+            ^
+../main.cpp:69:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+subdir.mk:30: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:54:17 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:18 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:04 **** Incremental Build of configuration Debug for project C_Plus_Plus_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:05 **** Incremental Build of configuration Debug for project Goblet_of_Fire ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:05 **** Incremental Build of configuration Debug for project Groceries ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:51:38: error: expected primary-expression before ‘;’ token
+   for(int j = 0; j < /*Upper Bound*/ ;j++){
+                                      ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+19:55:05 **** Incremental Build of configuration Debug for project List_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:06 **** Incremental Build of configuration Debug for project LordofTheRings ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:06 **** Incremental Build of configuration Debug for project Queue_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:06 **** Incremental Build of configuration Debug for project Santa_List ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main(int, const char**)’:
+../main.cpp:69:40: warning: format ‘%S’ expects argument of type ‘wchar_t*’, but argument 2 has type ‘std::__cxx11::string* {aka std::__cxx11::basic_string<char>*}’ [-Wformat=]
+   printf("Hey we, found %S!\n",YOURNAME);
+                                        ^
+Finished building: ../main.cpp
+ 
+Building target: Santa_List
+Invoking: Cross G++ Linker
+g++  -o "Santa_List"  ./List.o ./Queue.o ./Stack.o ./Tree.o ./main.o   
+Finished building target: Santa_List
+ 
+19:55:08 **** Incremental Build of configuration Debug for project Stack_Demo ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:09 **** Incremental Build of configuration Debug for project Tree_Demo ****
+make all 
+make: Nothing to be done for 'all'.

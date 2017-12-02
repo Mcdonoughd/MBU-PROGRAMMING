@@ -1,0 +1,6 @@
+18:47:47 **** Build of configuration Default for project Santa2 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+18:47:48 Build Finished (took 262ms)
+
